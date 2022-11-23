@@ -1,0 +1,136 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgba(255, 255, 255, 0);
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+header{
+    text-align: left;
+    color: black;
+    background-color: rgba(255, 255, 255,0);
+    font-size: xx-large;
+    padding: 0.3em;
+}
+
+.app{
+    border: 2em solid rgba(0, 0, 0, 0.507);
+}
+
+.immediate-menus{
+    padding-top: 2em;
+    padding-left: 5em;
+    padding-bottom: 2em;
+    display: block;
+}
+
+.menu-1{
+    background-color: hsl(60, 100%, 65%);
+    padding-top: 0.5em;
+    padding-left: 0.5em;
+    width: 150px;
+    transition: transform .4s;
+    border: 0em solid #000;
+    border-radius: 1em;
+    display: inline-block;
+    margin: 2em;
+}
+
+.menu-1-top{
+    vertical-align: top;
+    padding-bottom: 6em;
+}
+
+.menu-1-bottom{
+    vertical-align: bottom;
+    padding-bottom: 0.5em;
+}
+
+.menu-1:hover{
+    transform: scale(1.5);
+}
+
+.menu-2{
+    background-color: hsl(105, 100%, 65%);
+    padding-top: 0.5em;
+    padding-left: 0.5em;
+    width: 150px;
+    transition: transform .4s;
+    border: 0em solid #000;
+    border-radius: 1em;
+    display: inline-block;
+    margin: 2em;
+}
+
+.menu-2-top{
+    vertical-align: top;
+    padding-bottom: 6em;
+}
+
+.menu-2-bottom{
+    vertical-align: bottom;
+    padding-bottom: 0.5em;
+}
+
+.menu-2:hover{
+    transform: scale(1.5);
+}
+
+.menu-3{
+    background-color: hsl(270, 100%, 69%);
+    padding-top: 0.5em;
+    padding-left: 0.5em;
+    width: 150px;
+    transition: transform .4s;
+    border: 0em solid #000;
+    border-radius: 1em;
+    display: inline-block;
+    margin: 2em;
+}
+
+.menu-3-top{
+    vertical-align: top;
+    padding-bottom: 6em;
+}
+
+.menu-3-bottom{
+    vertical-align: bottom;
+    padding-bottom: 0.5em;
+}
+
+.menu-3:hover{
+    transform: scale(1.5);
+}
+
+.latest-transactions{
+    margin-top: 2em;
+    margin-left: 5em;
+    margin-bottom: 2em;
+    display: block;
+}
+
+table{
+    margin-top: 2.5em;
+    margin-left: 2em;
+    text-align: left;
+}
+
+th{
+    padding: 0.5em;
+    border: 0em;
+    border-radius: 0.5em;
+    color: aliceblue;
+    background-color: #23242a;
+}
+
+td{
+    padding: 0.5em;
+    border: 0em;
+    border-radius: 0.5em;
+}
